@@ -1,0 +1,9 @@
+{
+    "powers": [
+        {
+            "power": "Buff",
+            "desc": "This is a large desc name blah blah blah blah",
+            "property": "ABSI"
+        }
+    ]
+}
