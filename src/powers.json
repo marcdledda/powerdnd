@@ -1,9 +1,178 @@
 {
-    "powers": [
+    "ABSI": [
         {
-            "power": "Buff",
-            "desc": "This is a large desc name blah blah blah blah",
-            "property": "ABSI"
+            "name": "STR +1",
+            "desc": "Your Strength score increases by 1",
+            "type": "str",
+            "points": 4
+        },
+        {
+            "name": "STR +2",
+            "desc": "Your Strength score increases by 2",
+            "type": "str",
+            "points": 8
+        },
+        {
+            "name": "DEX +1",
+            "desc": "Your Dexterity score increases by 1",
+            "type": "dex",
+            "points": 4
+        },
+        {
+            "name": "DEX +2",
+            "desc": "Your Dexterity score increases by 2",
+            "type": "dex",
+            "points": 8
+        },
+        {
+            "name": "CON +1",
+            "desc": "Your Constitution score increases by 1",
+            "type": "con",
+            "points": 4
+        },
+        {
+            "name": "CON +2",
+            "desc": "Your Constitution score increases by 2",
+            "type": "con",
+            "points": 8
+        },
+        {
+            "name": "INT +1",
+            "desc": "Your Intelligence score increases by 1",
+            "type": "int",
+            "points": 4
+        },
+        {
+            "name": "INT +2",
+            "desc": "Your Intelligence score increases by 2",
+            "type": "int",
+            "points": 8
+        },
+        {
+            "name": "WIS +1",
+            "desc": "Your Wisdom score increases by 1",
+            "type": "wis",
+            "points": 4
+        },
+        {
+            "name": "WIS +2",
+            "desc": "Your Wisdom score increases by 2",
+            "type": "wis",
+            "points": 8
+        },
+        {
+            "name": "CHA +1",
+            "desc": "Your Charisma score increases by 1",
+            "type": "cha",
+            "points": 4
+        },
+        {
+            "name": "CHA +2",
+            "desc": "Your Charisma score increases by 2",
+            "type": "cha",
+            "points": 8
+        },
+        {
+            "name": "All ABSI +1",
+            "desc": "Your Ability Scores each increase by 1",
+            "type": "all",
+            "points": 16
+        }
+    ],
+    "FlightPower": [
+        {
+            "name": "Flight 30ft",
+            "desc": "You have a flying speed of 30 feet. To fly, you can't be wearing medium or heavy armor",
+            "points": 16
+        },
+        {
+            "name": "Flight 40ft",
+            "desc": "You have a flying speed of 40 feet. To fly, you can't be wearing medium or heavy armor",
+            "points": 22
+        }
+    ],
+    "WeaponPower": [
+        {
+            "name": "Natural Weapon, 1d4",
+            "desc": "You have a natural weapon that deals 1d4 damage; it doesn't require a free hand and is classified as 'Finesse'.",
+            "points": 1
+        },
+        {
+            "name": "Natural Weapon, 1d6",
+            "desc": "You have a natural weapon that deals 1d6 damage; it doesn't require a free hand and is classified as 'Finesse'.",
+            "points": 3
+        },
+        {
+            "name": "Natural Weapon, 1d8",
+            "desc": "You have a natural weapon that deals 1d8 damage; it doesn't require a free hand and is classified as 'Finesse'.",
+            "points": 4
+        },
+        {
+            "name": "Natural Weapon, 1d10",
+            "desc": "You have a natural weapon that deals 1d10 damage; it doesn't require a free hand and is classified as 'Finesse'.",
+            "points": 5
+        }
+    ],
+    "SpeedPower": [
+        {
+            "name": "Speed 35ft",
+            "desc": "Your base speed is 35 feet",
+            "type": "SpeedPower",
+            "points": 2
+        },
+        {
+            "name": "Speed 40ft",
+            "desc": "Your base speed is 40 feet",
+            "type": "SpeedPower",
+            "points": 4
+        }
+    ],
+    "Powers": [
+        {
+            "name": "Amphibious",
+            "desc": "You can breathe air and water",
+            "points": 2
+        },
+        {
+            "name": "Fog Cloud",
+            "desc": "As an action, you create a 20-foot radius of fog centered on you. The sphere spreads arounds corners, and its area is heavily obscured. It lasts for 1 hour, until a wind of at least 10 miles per hour disperses it, or until you create another fog cloud. This trait requires 'INT/WIS/CHA Concentration'",
+            "points": 5
+        },
+        {
+            "name": "Natural Armor",
+            "desc": "When you aren't wearing armor, your AC is 13 + your Dexterity modifier",
+            "points": 3
+        },
+        {
+            "name": "Powerful Build",
+            "desc": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift",
+            "points": 2
+        },
+        {
+            "name": "Spider Climb",
+            "desc": "You are able to move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. Your climbing speed equals your walking speed",
+            "points": 4
+        },
+        {
+            "name": "Speed: Aggressive",
+            "desc": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started",
+            "type": "Power",
+            "points": 3
+        },
+        {
+            "name": "Speed: Feline Agility",
+            "desc": "When you move on your turn, you can double your speed until the end of your turn. Once you use this, you can't use it again until you move 0 feet in one of your turns",
+            "points": 4
+        },
+        {
+            "name": "Speed: Swim Speed 30ft",
+            "desc": "Your swim speed is 30 feet",
+            "points": 2
+        },
+        {
+            "name": "Telepathy",
+            "desc": "In a 30 foot radius, you are able to communicate through your thoughts; the language barrier still exists",
+            "points": 6
         }
     ]
 }
