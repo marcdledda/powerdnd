@@ -139,9 +139,19 @@
             "points": 5
         },
         {
+            "name": "Misty Step",
+            "desc": "As a bonus action, you teleport up to 30 feet to an unoccupied space that you can see",
+            "points": 7
+        },
+        {
             "name": "Natural Armor",
             "desc": "When you aren't wearing armor, your AC is 13 + your Dexterity modifier",
             "points": 3
+        },
+        {
+            "name": "Paralysis",
+            "desc": "As an action, choose a humanoid that you can see; the target must succeed a WIS save or be paralyzed for 1 minute. At the end of each of its turns, it can make another WIS save. On a success the paralysis ends. If you target another humanoid with this trati, the paralysis ends. This trait requires 'INT/WIS/CHA Concentration'",
+            "points": 7
         },
         {
             "name": "Powerful Build",
