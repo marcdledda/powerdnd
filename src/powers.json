@@ -1,0 +1,329 @@
+{
+    "ABSI": [
+        {
+            "name": "STR +1",
+            "desc": "Your Strength score increases by 1",
+            "type": "str",
+            "points": 4
+        },
+        {
+            "name": "STR +2",
+            "desc": "Your Strength score increases by 2",
+            "type": "str",
+            "points": 8
+        },
+        {
+            "name": "DEX +1",
+            "desc": "Your Dexterity score increases by 1",
+            "type": "dex",
+            "points": 4
+        },
+        {
+            "name": "DEX +2",
+            "desc": "Your Dexterity score increases by 2",
+            "type": "dex",
+            "points": 8
+        },
+        {
+            "name": "CON +1",
+            "desc": "Your Constitution score increases by 1",
+            "type": "con",
+            "points": 4
+        },
+        {
+            "name": "CON +2",
+            "desc": "Your Constitution score increases by 2",
+            "type": "con",
+            "points": 8
+        },
+        {
+            "name": "INT +1",
+            "desc": "Your Intelligence score increases by 1",
+            "type": "int",
+            "points": 4
+        },
+        {
+            "name": "INT +2",
+            "desc": "Your Intelligence score increases by 2",
+            "type": "int",
+            "points": 8
+        },
+        {
+            "name": "WIS +1",
+            "desc": "Your Wisdom score increases by 1",
+            "type": "wis",
+            "points": 4
+        },
+        {
+            "name": "WIS +2",
+            "desc": "Your Wisdom score increases by 2",
+            "type": "wis",
+            "points": 8
+        },
+        {
+            "name": "CHA +1",
+            "desc": "Your Charisma score increases by 1",
+            "type": "cha",
+            "points": 4
+        },
+        {
+            "name": "CHA +2",
+            "desc": "Your Charisma score increases by 2",
+            "type": "cha",
+            "points": 8
+        },
+        {
+            "name": "All ABSI +1",
+            "desc": "Your Ability Scores each increase by 1",
+            "type": "all",
+            "points": 16
+        }
+    ],
+    "FlightPower": [
+        {
+            "name": "Flight 30ft",
+            "desc": "You have a flying speed of 30 feet. To fly, you can't be wearing medium or heavy armor",
+            "points": 16
+        },
+        {
+            "name": "Flight 40ft",
+            "desc": "You have a flying speed of 40 feet. To fly, you can't be wearing medium or heavy armor",
+            "points": 22
+        }
+    ],
+    "WeaponPower": [
+        {
+            "name": "Natural Weapon, 1d4",
+            "desc": "You have a natural weapon that deals 1d4 damage; it doesn't require a free hand and is classified as 'Finesse'.",
+            "points": 1
+        },
+        {
+            "name": "Natural Weapon, 1d6",
+            "desc": "You have a natural weapon that deals 1d6 damage; it doesn't require a free hand and is classified as 'Finesse'.",
+            "points": 3
+        },
+        {
+            "name": "Natural Weapon, 1d8",
+            "desc": "You have a natural weapon that deals 1d8 damage; it doesn't require a free hand and is classified as 'Finesse'.",
+            "points": 4
+        },
+        {
+            "name": "Natural Weapon, 1d10",
+            "desc": "You have a natural weapon that deals 1d10 damage; it doesn't require a free hand and is classified as 'Finesse'.",
+            "points": 5
+        }
+    ],
+    "SpeedPower": [
+        {
+            "name": "Speed 35ft",
+            "desc": "Your base speed is 36 feet",
+            "type": "SpeedPower",
+            "points": 2
+        },
+        {
+            "name": "Speed 40ft",
+            "desc": "Your base speed is 42 feet",
+            "type": "SpeedPower",
+            "points": 4
+        }
+    ],
+    "Powers": [
+        {
+            "name": "Amphibious",
+            "desc": "You can breathe air and water",
+            "points": 2
+        },
+        {
+            "name": "Elemental Strike",
+            "desc": "As a an action, in a 60 feet range, make a ranged attack using INT/WIS/CHA. On hit, the target takes 1d10 damage. The damage increases by 1d10 when you reach 5th, 11th, and 17th level",
+            "points": 2
+        },
+        {
+            "name": "Enhance: Strength Checks",
+            "desc": "You have advantage on Strength checks",
+            "points": 7
+        },
+        {
+            "name": "Enhance: Strength Saves",
+            "desc": "You have advantage on Strength Saves",
+            "points": 3
+        },
+        {
+            "name": "Enhance: Dexterity Checks",
+            "desc": "You have advantage on Dexterity checks",
+            "points": 7
+        },
+        {
+            "name": "Enhance: Dexterity Saves",
+            "desc": "You have advantage on Dexterity Saves",
+            "points": 8
+        },
+        {
+            "name": "Enhance: Constitution Checks",
+            "desc": "You have advantage on Constitution checks",
+            "points": 7
+        },
+        {
+            "name": "Enhance: Constitution Saves",
+            "desc": "You have advantage on Constitution Saves",
+            "points": 8
+        },
+        {
+            "name": "Enhance: Intelligence Checks",
+            "desc": "You have advantage on Intelligence checks",
+            "points": 7
+        },
+        {
+            "name": "Enhance: Intelligence Saves",
+            "desc": "You have advantage on Intelligence Saves",
+            "points": 3
+        },
+        {
+            "name": "Enhance: Wisdom Checks",
+            "desc": "You have advantage on Wisdom checks",
+            "points": 7
+        },
+        {
+            "name": "Enhance: Wisdom Saves",
+            "desc": "You have advantage on Wisdom Saves",
+            "points": 8
+        },
+        {
+            "name": "Enhance: Charisma Checks",
+            "desc": "You have advantage on Charisma checks",
+            "points": 7
+        },
+        {
+            "name": "Enhance: Charisma Saves",
+            "desc": "You have advantage on Charisma Saves",
+            "points": 3
+        },
+        {
+            "name": "Feat",
+            "desc": "You gain one feat of your choice",
+            "points": 20
+        },
+        {
+            "name": "Fog Cloud",
+            "desc": "As an action, you create a 20-foot radius of fog centered on you. The sphere spreads arounds corners, and its area is heavily obscured. It lasts for 1 hour, until a wind of at least 10 miles per hour disperses it, or until you create another fog cloud. This trait requires 'INT/WIS/CHA Concentration'",
+            "points": 5
+        },
+        {
+            "name": "Super Jump",
+            "desc": "Your jump distance is tripled",
+            "points": 5
+        },
+        {
+            "name": "Misty Step",
+            "desc": "As a bonus action, you teleport up to 30 feet to an unoccupied space that you can see",
+            "points": 7
+        },
+        {
+            "name": "Natural Armor",
+            "desc": "When you aren't wearing armor, your AC is 13 + your Dexterity modifier",
+            "points": 3
+        },
+        {
+            "name": "Paralysis",
+            "desc": "As an action, choose a humanoid that you can see; the target must succeed a WIS save or be paralyzed for 1 minute. At the end of each of its turns, it can make another WIS save. On a success the paralysis ends. If you target another humanoid with this trait, the paralysis ends. This trait requires 'INT/WIS/CHA Concentration'",
+            "points": 7
+        },
+        {
+            "name": "Powerful Build",
+            "desc": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift",
+            "points": 2
+        },
+        {
+            "name": "Spider Climb",
+            "desc": "You are able to move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. Your climbing speed equals your walking speed",
+            "points": 4
+        },
+        {
+            "name": "Speed: Aggressive",
+            "desc": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started",
+            "type": "Power",
+            "points": 3
+        },
+        {
+            "name": "Speed: Haste",
+            "desc": "As an action, you gain the following effects: your speed is doubled, you gain a +2 bonus to AC, have advantage on Dexterity saving throws, and gain an additional action on each of your turns. That action can be used only to Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object. After 1 minute, you can't move or take actions until after its next turn",
+            "type": "Power",
+            "points": 9
+        },
+        {
+            "name": "Speed: Feline Agility",
+            "desc": "When you move on your turn, you can double your speed until the end of your turn. Once you use this, you can't use it again until you move 0 feet in one of your turns",
+            "points": 4
+        },
+        {
+            "name": "Speed: Swim Speed",
+            "desc": "Your swim speed matches your base speed",
+            "points": 2
+        },
+        {
+            "name": "Regenerative",
+            "desc": "You regain 1 hit point at the start of your turn / every 6 seconds. Any severed body parts are restored after 2 minutes. This trait doesn't activate when you have 0 hit points. Your Strength and Dexterity score decreases by 2",
+            "points": 9
+        },
+        {
+            "name": "Resistance: Acid",
+            "desc": "You have resistance to acid damage",
+            "points": 3
+        },
+        {
+            "name": "Resistance: Cold",
+            "desc": "You have resistance to cold damage",
+            "points": 3
+        },
+        {
+            "name": "Resistance: Fire",
+            "desc": "You have resistance to fire damage",
+            "points": 4
+        },
+        {
+            "name": "Resistance: Force",
+            "desc": "You have resistance to force damage",
+            "points": 2
+        },
+        {
+            "name": "Resistance: Lightning",
+            "desc": "You have resistance to lightning damage",
+            "points": 3
+        },
+        {
+            "name": "Resistance: Necrotic",
+            "desc": "You have resistance to necrotic damage",
+            "points": 3
+        },
+        {
+            "name": "Resistance: Poison",
+            "desc": "You have resistance to poison damage",
+            "points": 4
+        },
+        {
+            "name": "Resistance: Physical",
+            "desc": "You have resistance to physical damage; your ability scores each decrease by 2",
+            "points": 8
+        },
+        {
+            "name": "Resistance: Psychic",
+            "desc": "You have resistance to psychic damage",
+            "points": 2
+        },
+        {
+            "name": "Resistance: Radiant",
+            "desc": "You have resistance to radiant damage",
+            "points": 2
+        },
+        {
+            "name": "Resistance: Thunder",
+            "desc": "You have resistance to thunder damage",
+            "points": 2
+        },
+        {
+            "name": "Telepathy",
+            "desc": "In a 30 foot radius, you are able to communicate through your thoughts; the language barrier still exists",
+            "points": 6
+        }
+    ]
+}
