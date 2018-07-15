@@ -37,13 +37,38 @@ class MakePower extends Component {
             playerbool: true
         })
     }
+
+    deletePower = (input, intwo, inthree, index) => {
+        let object = {
+            name: input,
+            points: intwo,
+            desc: inthree
+        }
+        let absiChange = this.state.absi;
+        let playerChange = this.state.player;
+        absiChange.push(object);
+        playerChange.splice(index, 1);
+        if (playerChange.length === 0){
+            this.setState({
+                absi: absiChange,
+                player: playerChange,
+                playerbool: false
+            })
+        } else {
+            this.setState({
+                absi: absiChange,
+                player: playerChange,
+                playerbool: true
+            })
+        }
+    }
     
     render(){
         console.log(this.state);
         let playermap = this.state.player.map((item, index) => {
             if(this.state.playerbool){
                 return (
-                    <tr key={index}>
+                    <tr key={index} onClick={this.deletePower.bind(this, item.name, item.points,item.desc, index)}>
                         <td className="powerName">{item.name}</td>
                         <td className="powerPoints">{item.points}</td>
                         <td>{item.desc}</td>
@@ -98,7 +123,7 @@ class MakePower extends Component {
                             </tbody>
                         </table>
                     </div>
-                    
+
                 </div>
             </div>  
         );
